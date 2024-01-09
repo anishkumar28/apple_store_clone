@@ -2,16 +2,64 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
-    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 .navigation{
     display: flex;
     justify-content: center;
+    background-color: black;
+    color: white;
 }
 
 .list-item{
     list-style: none;
     margin: 20px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+    margin-top: 10px;
+    border: 2px solid white;
+    height: 70vh;
+    background-image: url(https://awsimages.detik.net.id/visual/2023/09/13/iphone-15-pro-3_169.png?w=480&q=90);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: center/cover;
+    position: relative;
+    background-size: cover;
+    color: white;
+}
+
+.main a{
+    color: rgb(76, 76, 222);
+    margin-top: 5px;
+}
+
+.iphone15{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+    margin-top: 10px;
+    border: 2px solid white;
+    height: 70vh;
+    background-image: url(https://pic.clubic.com/v1/images/2072880/raw);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: center/cover;
+    position: relative;
+    background-size: cover;
+    color: black;
+}
+
+iphone15 a{
+    color: rgb(76, 76, 222);
+    margin-top: 5px;
 }
